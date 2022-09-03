@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
+import Header from "./Header";
 
 const Layout = ({ children }: { children: any }) => {
   
   return (
     <div className="wrapper">
-      <div className="main d-flex justify-content-center">
-        <header>
-        </header>
-        <main className="content d-flex p-0">{children}</main>
+      <div className="main">
+        <Header/>
+        <main className="content d-flex p-0 my-4">{children}</main>
       </div>
       <div className="toast-container">
       </div>
