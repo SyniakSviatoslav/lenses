@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./assets/images/eye-unsplash.jpg');
   background-position: top;
+  background-repeat: no-repeat;
+}
+
+.main{
+  background-color: rgba(175, 211, 245, 0.1);
 }
 
 code {
