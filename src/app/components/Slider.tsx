@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from "react-bootstrap";
 import './main.css';
-import slider1 from '../../assets/images/slider1-unsplash.jpg';
-import slider2 from '../../assets/images/slider2-unsplash.jpg';
-import slider3 from '../../assets/images/slider3-unsplash.jpg';
 
 const Slider = () => {
     return (
@@ -14,7 +11,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={slider1}
+                    src={require('../../assets/images/slider1-unsplash.jpg')}
                     alt="First slide"
                 />
                 <Carousel.Caption className="pink-glass-filter blue-text">
@@ -25,7 +22,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={slider2}
+                    src={require('../../assets/images/slider2-unsplash.jpg')}
                     alt="Second slide"
                 />
 
@@ -37,7 +34,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={slider3}
+                    src={require('../../assets/images/slider3-unsplash.jpg')}
                     alt="Third slide"
                 />
 

@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Dropdown } from "react-bootstrap";
 import DropdownToggle from "react-bootstrap/esm/DropdownToggle";
 import LensesList from "../components/LensesList";
 import Slider from "../components/Slider";
-// import { Dropdown, DropdownButton } from "react-bootstrap";
 import './home.css'
 
 const Home = () => {
-
 
     return (
         <div className="wrapper w-100 py-4 d-flex flex-column justify-content-center">
@@ -52,7 +50,7 @@ const Home = () => {
                 </div>
             </div>
             <Slider />
-            <LensesList/>
+            <LensesList />
 
 
         </div>

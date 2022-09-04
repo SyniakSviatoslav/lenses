@@ -100,6 +100,6 @@
     /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "./src/**/**/*/.png/.jpg"
+    "./src/**/**/*"
   ]
 }
