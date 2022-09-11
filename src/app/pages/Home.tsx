@@ -1,6 +1,7 @@
 import React from "react";
 import { Dropdown } from "react-bootstrap";
 import DropdownToggle from "react-bootstrap/esm/DropdownToggle";
+import Description from "../components/Description";
 import LensesList from "../components/LensesList";
 import Slider from "../components/Slider";
 import './home.css'
@@ -51,6 +52,7 @@ const Home = () => {
             </div>
             <Slider />
             <LensesList />
+            <Description/>
 
 
         </div>

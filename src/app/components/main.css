@@ -28,8 +28,20 @@
     background: #465484;
 }
 
+.white-back{
+    background: white;
+}
+
+.pink-back{
+    background: #e1b5e8;
+}
+
 .pink-text{
    color: rgba(225, 181, 232, 1);
+}
+
+.lenses-list{
+    background: #e1b5e8;
 }
 
 .lense-container{
@@ -40,4 +52,8 @@
 .lense-img-container{
     width: 20vw;
     height: 20vh;
+}
+
+.description{
+    background-image: url('./../../assets/images/gradient-unsplash.jpg');
 }
