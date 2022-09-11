@@ -4,16 +4,17 @@ import DropdownToggle from "react-bootstrap/esm/DropdownToggle";
 import Deliver from "../components/Deliver";
 import Description from "../components/Description";
 import LensesList from "../components/LensesList";
+import Review from "../components/Review";
 import Slider from "../components/Slider";
 import './home.css'
 
 const Home = () => {
 
     return (
-        <div className="wrapper w-100 py-4 d-flex flex-column justify-content-center">
+        <div className="wrapper  w-100 py-4 d-flex flex-column justify-content-center">
 
             <div className='d-flex justify-content-center mb-4'>
-                <div className="main-container p-4">
+                <div className="description main-container p-4">
                     <div className="d-flex flex-column justify-content-center align-items-center h-100">
                         <h1 className="text-white mb-4">Як обрати контактні лінзи?</h1>
                         <div className="d-flex w-100 justify-content-around align-items-center mt-4">
@@ -55,7 +56,7 @@ const Home = () => {
             <LensesList />
             <Description/>
             <Deliver/>
-
+            <Review/>
         </div>
     );
 };

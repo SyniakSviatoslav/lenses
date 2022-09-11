@@ -5,7 +5,7 @@ import './main.css';
 
 const Slider = () => {
     return (
-        <div className="d-flex justify-content-center blue-glass-filter p-4 m-4">
+        <div className="d-flex justify-content-center blue-glass-filter description p-4 m-4">
             <div className="slider-container">
         <Carousel>
             <Carousel.Item>

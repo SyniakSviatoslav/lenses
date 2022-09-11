@@ -10,9 +10,9 @@ const LensesList = () => {
     return (
         <div className="lenses-list d-flex justify-content-center flex-wrap py-4">
             {lenses.map((x) => 
-            <div className="blue-back text-white d-flex align-items-center lense-container py-2 m-4">
+            <div className="description text-white d-flex align-items-center lense-container py-2 m-4">
                 <img className="lense-img-container" src={require('../../assets/images/lenses.jpg')}></img>
-                <div className="d-flex blue-back flex-column justify-content-around p-2">
+                <div className="d-flex flex-column justify-content-around p-2">
                     <strong className="mb-2">Biofinity 3L</strong>
                     <span>400 грн</span>
                 </div>
