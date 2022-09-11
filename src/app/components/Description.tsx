@@ -5,10 +5,10 @@ import './header.css';
 
 const Description = () => {
     return (
-        <div className="description">
-            <div className="d-flex flex-column justify-content-center align-items-center p-4">
+        <div className="description p-4">
+            <div className="d-flex flex-column justify-content-center align-items-center blue-glass-filter m-4 p-4">
                 <div className="d-flex flex-column justify-content-center align-items-center my-2">
-                    <div className="blue-text pink-glass-filter  p-2 rounded mb-2">
+                    <div className="blue-text pink-back  p-2 rounded mb-2">
                         <h3>Biofinity</h3>
                     </div>
                     <div className="text-white">
@@ -18,7 +18,7 @@ const Description = () => {
                     </div>
                 </div>
                 <div className="d-flex flex-column justify-content-center align-items-center my-2">
-                    <div className="blue-text pink-glass-filter p-2 rounded mb-2">
+                    <div className="blue-text pink-back p-2 rounded mb-2">
                         <h3>Biofinity</h3>
                     </div>
                     <div className="text-white">
@@ -28,7 +28,7 @@ const Description = () => {
                     </div>
                 </div>
                 <div className="d-flex flex-column justify-content-center align-items-center my-2">
-                    <div className="blue-text pink-glass-filter p-2 rounded mb-2">
+                    <div className="blue-text pink-back p-2 rounded mb-2">
                         <h3>Biofinity</h3>
                     </div>
                     <div className="text-white">
