@@ -41,7 +41,7 @@
 }
 
 .lenses-list{
-    background: #e1b5e8;
+    background: #f7fbfe;
 }
 
 .lense-container{
@@ -49,9 +49,34 @@
     height: 20vh;
 }
 
+.lense-description{
+    display: none;
+    transition: width 0.8s, height 0.9s;
+}
+
 .lense-img-container{
     width: 20vw;
     height: 20vh;
+    transition: width 0.8s;
+}
+
+.lense-container:hover {
+    animation: ease-in-out ;
+}
+
+.lense-container:hover .lense-img-container{
+    animation: ease-in;
+    width: 0;
+    /* height: 0; */
+}
+
+.lense-container:hover .lense-description{
+    animation: ease-in;
+    width: 20vw;
+    height: 20vh;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
 }
 
 .description{

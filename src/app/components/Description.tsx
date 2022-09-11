@@ -5,36 +5,38 @@ import './header.css';
 
 const Description = () => {
     return (
-        <div className="description p-4">
-            <div className="d-flex flex-column justify-content-center align-items-center blue-glass-filter m-4 p-4">
-                <div className="d-flex flex-column justify-content-center align-items-center my-2">
-                    <div className="blue-text pink-back  p-2 rounded mb-2">
-                        <h3>Biofinity</h3>
+        <div className=" p-4">
+            <div className="d-flex flex-column justify-content-center align-items-center description rounded m-4 ">
+                <div className="d-flex flex-column justify-content-center align-items-center blue-glass-filter rounded p-4">
+                    <div className="d-flex flex-column justify-content-center align-items-center my-2">
+                        <div className="blue-text pink-back  p-2 rounded mb-2">
+                            <h3>Biofinity</h3>
+                        </div>
+                        <div className="text-white">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Suspendisse ultrices gravida dictum fusce ut placerat. Est placerat in egestas erat imperdiet sed euismod nisi porta.
+                                Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Imperdiet dui accumsan sit amet nulla facilisi.</p>
+                        </div>
                     </div>
-                    <div className="text-white">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Suspendisse ultrices gravida dictum fusce ut placerat. Est placerat in egestas erat imperdiet sed euismod nisi porta.
-                            Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Imperdiet dui accumsan sit amet nulla facilisi.</p>
+                    <div className="d-flex flex-column justify-content-center align-items-center my-2">
+                        <div className="blue-text pink-back p-2 rounded mb-2">
+                            <h3>Biofinity</h3>
+                        </div>
+                        <div className="text-white">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Suspendisse ultrices gravida dictum fusce ut placerat. Est placerat in egestas erat imperdiet sed euismod nisi porta.
+                                Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Imperdiet dui accumsan sit amet nulla facilisi.</p>
+                        </div>
                     </div>
-                </div>
-                <div className="d-flex flex-column justify-content-center align-items-center my-2">
-                    <div className="blue-text pink-back p-2 rounded mb-2">
-                        <h3>Biofinity</h3>
-                    </div>
-                    <div className="text-white">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Suspendisse ultrices gravida dictum fusce ut placerat. Est placerat in egestas erat imperdiet sed euismod nisi porta.
-                            Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Imperdiet dui accumsan sit amet nulla facilisi.</p>
-                    </div>
-                </div>
-                <div className="d-flex flex-column justify-content-center align-items-center my-2">
-                    <div className="blue-text pink-back p-2 rounded mb-2">
-                        <h3>Biofinity</h3>
-                    </div>
-                    <div className="text-white">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Suspendisse ultrices gravida dictum fusce ut placerat. Est placerat in egestas erat imperdiet sed euismod nisi porta.
-                            Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Imperdiet dui accumsan sit amet nulla facilisi.</p>
+                    <div className="d-flex flex-column justify-content-center align-items-center my-2">
+                        <div className="blue-text pink-back p-2 rounded mb-2">
+                            <h3>Biofinity</h3>
+                        </div>
+                        <div className="text-white">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Suspendisse ultrices gravida dictum fusce ut placerat. Est placerat in egestas erat imperdiet sed euismod nisi porta.
+                                Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Imperdiet dui accumsan sit amet nulla facilisi.</p>
+                        </div>
                     </div>
                 </div>
             </div>
