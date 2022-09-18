@@ -48,19 +48,17 @@
 }
 
 .lense-container{
-    width: 25vw;
-    height: 20vh;
+    width: 90%;
+    height: 25vh;
 }
 
 .lense-description{
-    display: none;
-    height: 20vh;
-    transition: width 0.8s, height 0.9s;
+   display: none;
 }
 
 .lense-img-container{
-    width: 20vw;
-    height: 20vh;
+    width: 60%;
+    height: 100%;
     transition: width 1s;
 }
 
@@ -76,9 +74,8 @@
 
 .lense-container:hover .lense-description{
     animation: opaqueAnimation 3s;
-    width: 20vw;
-    height: 20vh;
-    padding: 2px;
+    height: 100%;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
 }
@@ -93,6 +90,10 @@ border-radius: 50%;
     background-image: url('./../../assets/images/gradient-unsplash.jpg');
 }
 
+.carousel-caption{
+    position: initial !important;
+}
+
 @keyframes opaqueAnimation { 
     0% {
       opacity: 0;
@@ -102,4 +103,12 @@ border-radius: 50%;
       opacity: 1;
     }
   }
+
+  @media (width: 668px){
+    .lense-container h{
+      font-size: 15px;
+      height: 35vh;
+    }
+  }
+
   

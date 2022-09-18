@@ -11,8 +11,8 @@ const LensesList = () => {
     return (
         <div className="lenses-list d-flex justify-content-center flex-wrap py-4">
             {lenses.map((x) =>
-            <Fade cascade fraction={0.9} triggerOnce={true}>
-            <div className="description text-white d-flex align-items-center lense-container py-2 m-4 rounded">
+            <Fade cascade fraction={0.7} triggerOnce={true} className='d-flex justify-content-center align-items-center' style={{maxWidth: '348px'}}>
+            <div className="description text-white d-flex align-items-center lense-container py-2 my-2 rounded">
                 <img className="lense-img-container rounded" src={require('../../assets/images/lenses.jpg')}></img>
                 <div className="d-flex flex-column justify-content-around p-2">
                     <strong className="mb-2">Biofinity 3L</strong>

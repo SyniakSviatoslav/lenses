@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <footer className="bg-dark">
-            <div className="d-flex justify-content-between text-white p-4">
+            <div className="d-flex justify-content-between text-white p-4 flex-wrap">
                 <div className="d-flex justify-content-around align-items-center ">
                     <span>Контактний телефон: {`(066-488-59-51)`}</span>
                 </div>

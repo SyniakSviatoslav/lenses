@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Description = () => {
     return (
-        <Fade cascade direction={'up'} fraction={0.5} triggerOnce={true}>
+        <Fade cascade direction={'up'} fraction={0.2} triggerOnce={true}>
             <div className=" p-4">
                 <div className="d-flex flex-column justify-content-center align-items-center description rounded m-4 ">
                     <div className="d-flex flex-column justify-content-center align-items-center blue-glass-filter rounded p-4">
