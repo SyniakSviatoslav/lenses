@@ -54,13 +54,14 @@
 
 .lense-description{
     display: none;
+    height: 20vh;
     transition: width 0.8s, height 0.9s;
 }
 
 .lense-img-container{
     width: 20vw;
     height: 20vh;
-    transition: width 0.8s;
+    transition: width 1s;
 }
 
 .lense-container:hover {
@@ -74,7 +75,7 @@
 }
 
 .lense-container:hover .lense-description{
-    animation: ease-in;
+    animation: opaqueAnimation 3s;
     width: 20vw;
     height: 20vh;
     padding: 2px;
@@ -91,3 +92,14 @@ border-radius: 50%;
 .description{
     background-image: url('./../../assets/images/gradient-unsplash.jpg');
 }
+
+@keyframes opaqueAnimation { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  

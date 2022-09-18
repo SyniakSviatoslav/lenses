@@ -14,7 +14,7 @@ body {
 .main{
   backdrop-filter: blur(10px) saturate(181%);
   -webkit-backdrop-filter: blur(10px) saturate(181%);
-  background-color: rgba(225, 181, 232, 0.4);
+  background-color: rgb(102 18 141 / 0.35);
   /* background-color: rgba(245, 175, 195, 0.2); */
 }
 
