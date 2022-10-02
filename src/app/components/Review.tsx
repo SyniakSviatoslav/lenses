@@ -7,36 +7,36 @@ import { Fade } from "react-awesome-reveal";
 const Review = () => {
     return (
         <div className="d-flex  rounded justify-content-around p-4 m-4 flex-wrap" style={{gap: '20px'}}>
-            <Fade duration={1500} fraction={0.2} direction={'up'} triggerOnce={true}>
-                <div className="description blue-glass-filter text-white d-flex flex-column justify-content-center align-items-center">
+            <Fade duration={1500} fraction={0.2} direction={'up'} triggerOnce={true} className="w-25">
+                <div className="description blue-glass-filter text-white d-flex flex-column justify-content-center align-items-center w-100">
                     <div>
-                        <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review-unspash.jpg')}></img>
+                        <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review1.jpg')}></img>
                     </div>
                     <div className="S d-flex flex-column align-items-center p-2">
-                        <h3 className="blue-text">Хороший Відгук</h3>
-                        <p>Review Review Review Review Review!</p>
+                        <h3 className="blue-text">Стас</h3>
+                        <p >Купував собі air optics у лютому, -1,25 для водіння. Це мої перші лінзи, має сенс купувати лише 3 шт або 6 шт). Про магазин можу сказати, що доставили лінзи оперативно, ціни нижчі чим в люксоптиці.</p>
                     </div>
                 </div>
             </Fade>
-            <Fade duration={1500} fraction={0.5} delay={500} direction={'up'} triggerOnce={true}>
-                <div className=" description blue-glass-filter text-white d-flex flex-column justify-content-center align-items-center">
+            <Fade duration={1500} fraction={0.5} delay={500} direction={'up'} triggerOnce={true} className="w-25">
+                <div className=" description blue-glass-filter text-white d-flex flex-column justify-content-center align-items-center w-100">
                     <div>
-                        <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review-unspash.jpg')}></img>
+                        <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review2.jpg')}></img>
                     </div>
                     <div className="S d-flex flex-column align-items-center p-2">
-                        <h3 className="blue-text">Хороший Відгук</h3>
-                        <p>Review Review Review Review Review!</p>
+                        <h3 className="blue-text">Микита</h3>
+                        <p>Гарні лінзи, м'які та приємні для очей. Не сохнуть, носяться добре, весь день, а ось знімаються насилу (((, сильно прилипають до ока. Купую в цьому магазині вже не перший раз, все встигають в поставлені сроки і сроки по лінзам завжди найновіші</p>
                     </div>
                 </div>
             </Fade>
-            <Fade duration={1500} fraction={0.5} delay={1000} direction={'up'} triggerOnce={true}>
-                <div className="description blue-glass-filter text-white d-flex flex-column justify-content-center align-items-center">
+            <Fade duration={1500} fraction={0.5} delay={1000} direction={'up'} triggerOnce={true} className="w-25">
+                <div className="description blue-glass-filter text-white d-flex flex-column justify-content-center align-items-center w-100">
                     <div>
-                        <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review-unspash.jpg')}></img>
+                        <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review3.jpg')}></img>
                     </div>
                     <div className="S d-flex flex-column align-items-center p-2">
-                        <h3 className="blue-text">Хороший Відгук</h3>
-                        <p>Review Review Review Review Review!</p>
+                        <h3 className="blue-text">Іринка</h3>
+                        <p>Перейшла на одноденки не тільки з міркувань гігієни, як тут пишуть (хоча і це теж важливо), просто як на мене вони найзручніші. І теж, до речі, біотру вандей беру, задоволена ними в плані носіння цілком і повністю.</p>
                     </div>
                 </div>
             </Fade>

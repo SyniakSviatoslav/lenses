@@ -1,10 +1,9 @@
-
-.slider-container{
+.slider-container {
     width: 60vw;
     color: black;
 }
 
-.pink-glass-filter{
+.pink-glass-filter {
     backdrop-filter: blur(10px) saturate(181%);
     -webkit-backdrop-filter: blur(10px) saturate(181%);
     background-color: rgba(225, 181, 232, 0.4);
@@ -12,7 +11,7 @@
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
-.blue-glass-filter{
+.blue-glass-filter {
     backdrop-filter: blur(10px) saturate(181%);
     -webkit-backdrop-filter: blur(10px) saturate(181%);
     background-color: rgba(175, 211, 245, 0.4);
@@ -20,59 +19,65 @@
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
-.blue-text{
+.blue-text {
     color: #0a2f5e;
 }
 
-.blue-back{
+.blue-back {
     background: #465484;
 }
 
-.white-back{
+.white-back {
     background: white;
 }
 
-.pink-back{
+.pink-back {
     background: #e1b5e8;
 }
 
-.pink-text{
-   color: rgba(225, 181, 232, 1);
+.pink-text {
+    color: rgba(225, 181, 232, 1);
 }
 
-.lenses-list{
+.lenses-list {
     /* background: #f7fbfe;
     backdrop-filter: blur(10px) saturate(181%);
     -webkit-backdrop-filter: blur(10px) saturate(181%);
     background-color: rgba(225, 181, 232, 0.4); */
 }
 
-.lense-container{
+.lense-container {
     width: 90%;
     height: 25vh;
 }
 
-.lense-description{
-   display: none;
+.lense-description {
+    display: none;
 }
 
-.lense-img-container{
+.lense-img-container {
     width: 60%;
     height: 100%;
     transition: width 1s;
 }
 
 .lense-container:hover {
-    animation: ease-in-out ;
+    animation: ease-in-out;
 }
 
-.lense-container:hover .lense-img-container{
+.lense-container:hover .price{
+    display: none;
+}
+
+.lense-container:hover .lense-img-container {
     animation: ease-in;
     width: 0;
     /* height: 0; */
 }
 
-.lense-container:hover .lense-description{
+.lense-container:hover .lense-description {
+    display: flex;
+    justify-content: center;
     animation: opaqueAnimation 3s;
     height: 100%;
     font-size: 12px;
@@ -80,35 +85,46 @@
     flex-direction: column;
 }
 
-.review-image{
-width: 200px;
-height: 200px;
-border-radius: 50%;
+.review-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
-.description{
+.description {
     background-image: url('./../../assets/images/gradient-unsplash.jpg');
 }
 
-.carousel-caption{
+.carousel-caption {
     position: initial !important;
 }
 
-@keyframes opaqueAnimation { 
+.carousel-img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.price{
+    position: absolute;
+    background: #0a305f;
+    top: 30px;
+    width: 35%;
+}
+
+@keyframes opaqueAnimation {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
-  
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
+}
 
-  @media (width: 668px){
-    .lense-container h{
-      font-size: 15px;
-      height: 35vh;
+@media (width: 668px) {
+    .lense-container h {
+        font-size: 15px;
+        height: 35vh;
     }
-  }
-
-  
+}

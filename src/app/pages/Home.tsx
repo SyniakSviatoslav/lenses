@@ -43,9 +43,9 @@ const Home = () => {
                                         Режим носіння
                                     </DropdownToggle>
                                     <Dropdown.Menu>
-                                        <Dropdown.Item href="#/action-1">Режим 1</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-2">Режим 1</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-3">Режим 1</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-1">Одноденні</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-2">Місячної заміни</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">День та ніч</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                                 <Dropdown className="main-btn">
@@ -53,9 +53,9 @@ const Home = () => {
                                         Виробник лінз
                                     </DropdownToggle>
                                     <Dropdown.Menu>
-                                        <Dropdown.Item href="#/action-1">Режим 1</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-2">Режим 1</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-3">Режим 1</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-1">Alcon</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-2">Coopervision</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">Bausch+Lomb</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                                 <Dropdown className="main-btn">
@@ -63,9 +63,9 @@ const Home = () => {
                                         Вид лінз
                                     </DropdownToggle>
                                     <Dropdown.Menu>
-                                        <Dropdown.Item href="#/action-1">Режим 1</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-2">Режим 1</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-3">Режим 1</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-1">Звичайні</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-2">Для астигматизму</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">Мультифокальні</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </div>

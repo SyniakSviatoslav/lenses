@@ -9,3 +9,12 @@ header {
     top: 0;
     z-index: 2;
   }
+
+  .order-btn{
+    padding: 20px;
+    width: 200px;
+    background: #035d9b;
+    margin: 5px;
+    font-weight: bolder;
+    color: white !important;
+  }
