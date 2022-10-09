@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 const Review = () => {
     return (
         <div className="d-flex  rounded justify-content-around p-4 m-4 flex-wrap" style={{gap: '20px'}}>
-            <Fade duration={1500} fraction={0.2} direction={'up'} triggerOnce={true} className="w-25">
+            <Fade duration={1500} fraction={0.2} direction={'up'} triggerOnce={true} className="lense-animation">
                 <div className="description blue-glass-filter text-white d-flex flex-column justify-content-center align-items-center w-100">
                     <div>
                         <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review1.jpg')}></img>
@@ -18,7 +18,7 @@ const Review = () => {
                     </div>
                 </div>
             </Fade>
-            <Fade duration={1500} fraction={0.5} delay={500} direction={'up'} triggerOnce={true} className="w-25">
+            <Fade duration={1500} fraction={0.5} delay={500} direction={'up'} triggerOnce={true} className="lense-animation">
                 <div className=" description blue-glass-filter text-white d-flex flex-column justify-content-center align-items-center w-100">
                     <div>
                         <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review2.jpg')}></img>
@@ -29,7 +29,7 @@ const Review = () => {
                     </div>
                 </div>
             </Fade>
-            <Fade duration={1500} fraction={0.5} delay={1000} direction={'up'} triggerOnce={true} className="w-25">
+            <Fade duration={1500} fraction={0.5} delay={1000} direction={'up'} triggerOnce={true} className="lense-animation">
                 <div className="description blue-glass-filter text-white d-flex flex-column justify-content-center align-items-center w-100">
                     <div>
                         <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review3.jpg')}></img>

@@ -52,6 +52,18 @@ const Description = () => {
                                 </div>
                             </div>
                         </Fade>
+                        <Fade cascade triggerOnce={true}>
+                            <div className="d-flex flex-column justify-content-center align-items-center my-2">
+                                <div className="blue-text pink-back p-2 rounded mb-2">
+                                    <h3>Air Optics</h3>
+                                </div>
+                                <div className="text-white">
+                                    <p>
+                                    Контактні лінзи одномісячної заміни перевершують усі аналоги завдяки унікальній технології SmartShield, що очищає поверхню лінзи, 
+                                    та зволоженого матеріалу HydraGlyde, що дозволяє відчути максимальний рівень комфорту. Термін заміни - 1 місяць. Радіус кривизни – 8,6. Діаметр – 14,2.</p>
+                                </div>
+                            </div>
+                        </Fade>
                     </div>
                 </div>
             </div>
