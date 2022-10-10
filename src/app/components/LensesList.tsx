@@ -22,7 +22,7 @@ const LensesList = () => {
         <div className="lenses-list d-flex justify-content-center flex-wrap py-4">
             {lenses.map((x, i) =>
                 <Fade cascade fraction={0.7} key={x.name} triggerOnce={true} className='d-flex justify-content-center align-items-center mr-2 lense-animation'>
-                    <div className="description text-white d-flex align-items-center lense-container my-2 mr-2 rounded position-relative">
+                    <div className=" blue-glass-filter text-white d-flex align-items-center lense-container my-2 mr-2 rounded position-relative">
                         <div className="price rounded-right">{x.price}</div>
                         <img className="lense-img-container rounded" src={require(`../../assets/images/item${i + 1}.jpg`)}></img>
                         <div className="d-flex flex-column justify-content-around p-2 w-100 text-center">

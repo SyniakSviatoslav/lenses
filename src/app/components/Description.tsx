@@ -12,7 +12,7 @@ const Description = () => {
                     <div className="d-flex flex-column justify-content-center align-items-center blue-glass-filter rounded p-4">
                         <Fade cascade triggerOnce={true}>
                             <div className="d-flex flex-column justify-content-center align-items-center my-2">
-                                <div className="blue-text pink-back  p-2 rounded mb-2">
+                                <div className="text-white pink-back  p-2 rounded mb-2">
                                     <h3>Biofinity</h3>
                                 </div>
                                 <div className="text-white">
@@ -32,7 +32,7 @@ const Description = () => {
                         </Fade>
                         <Fade cascade triggerOnce={true}>
                             <div className="d-flex flex-column justify-content-center align-items-center my-2">
-                                <div className="blue-text pink-back p-2 rounded mb-2">
+                                <div className="text-white pink-back p-2 rounded mb-2">
                                     <h3>PureVision 2</h3>
                                 </div>
                                 <div className="text-white">
@@ -54,7 +54,7 @@ const Description = () => {
                         </Fade>
                         <Fade cascade triggerOnce={true}>
                             <div className="d-flex flex-column justify-content-center align-items-center my-2">
-                                <div className="blue-text pink-back p-2 rounded mb-2">
+                                <div className="text-white pink-back p-2 rounded mb-2">
                                     <h3>Air Optics</h3>
                                 </div>
                                 <div className="text-white">

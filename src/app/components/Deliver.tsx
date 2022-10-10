@@ -8,11 +8,11 @@ import { Fade } from "react-awesome-reveal";
 const Deliver = () => {
     return (
         <Fade duration={1500} direction={'up'} fraction={0.2} triggerOnce={true}>
-            <div className="d-flex flex-column justify-content-center align-items-center p-4 m-4">
+            <div className="d-flex flex-column justify-content-center align-items-center p-4 m-4 text-white">
                 <div className="d-flex flex-column justify-content-center align-items-center p-4">
                     <h3>Як замовити лінзи?</h3>
                     <div className="d-flex align-items-center mt-2 flex-wrap" style={{ gap: '5px' }}>
-                        <div className="d-flex flex-column justify-content-center align-items-center" style={{ gap: '5px' }}>
+                        <div className="d-flex flex-column justify-content-center align-items-center " style={{ gap: '5px' }}>
                             <div>
                                 <Monitor size={50} />
                             </div>

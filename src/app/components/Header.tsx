@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { HeaderContent } from "semantic-ui-react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './header.css';
+import './main.css';
 import { Button, Modal, ModalBody, ModalFooter, ModalHeader, ModalTitle } from "react-bootstrap";
 import emailjs, { init, sendForm } from "emailjs-com";
 
@@ -42,9 +43,10 @@ const Header = () => {
 
     return (
         <header>
+            <div className="description">
             <HeaderContent>
-                <div className="d-flex justify-content-around align-items-center description">
-                    <h2>Dubin Lenses</h2>
+                <div className="d-flex justify-content-around align-items-center blue-glass-filter">
+                    <h2>Lenses Ukraine</h2>
                     <Button onClick={handleShow} className='order-btn'>Замовити</Button>
                 </div>
             </HeaderContent>
@@ -76,6 +78,7 @@ const Header = () => {
                     </ModalFooter>
                 </form>
             </Modal>
+            </div>
         </header>
     );
 };

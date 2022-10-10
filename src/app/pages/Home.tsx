@@ -38,31 +38,31 @@ const Home = () => {
                             />
                             </h1>
                             <div className="d-flex w-100 justify-content-around align-items-center mt-4 flex-wrap"  style={{gap: '10px'}}>
-                                <Dropdown className="main-btn">
+                                <Dropdown className="main-btn pink-btn">
                                     <DropdownToggle variant="main-btn" className="mr-2" id="dropdown-basic">
                                         Режим носіння
                                     </DropdownToggle>
-                                    <Dropdown.Menu>
+                                    <Dropdown.Menu className="pink-btn">
                                         <Dropdown.Item href="#/action-1">Одноденні</Dropdown.Item>
                                         <Dropdown.Item href="#/action-2">Місячної заміни</Dropdown.Item>
                                         <Dropdown.Item href="#/action-3">День та ніч</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
-                                <Dropdown className="main-btn">
+                                <Dropdown className="main-btn pink-btn">
                                     <DropdownToggle variant="main-btn" id="dropdown-basic">
                                         Виробник лінз
                                     </DropdownToggle>
-                                    <Dropdown.Menu>
+                                    <Dropdown.Menu className="pink-btn">
                                         <Dropdown.Item href="#/action-1">Alcon</Dropdown.Item>
                                         <Dropdown.Item href="#/action-2">Coopervision</Dropdown.Item>
                                         <Dropdown.Item href="#/action-3">Bausch+Lomb</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
-                                <Dropdown className="main-btn">
+                                <Dropdown className="main-btn pink-btn">
                                     <DropdownToggle variant="main-btn" id="dropdown-basic">
                                         Вид лінз
                                     </DropdownToggle>
-                                    <Dropdown.Menu>
+                                    <Dropdown.Menu className="pink-btn">
                                         <Dropdown.Item href="#/action-1">Звичайні</Dropdown.Item>
                                         <Dropdown.Item href="#/action-2">Для астигматизму</Dropdown.Item>
                                         <Dropdown.Item href="#/action-3">Мультифокальні</Dropdown.Item>

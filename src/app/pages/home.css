@@ -10,6 +10,10 @@
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
+.pink-btn{
+    background-color: #ff81d8 !important;
+}
+
 .main-btn{
     border-radius: 10px;
     background:rgba(225, 181, 232, 1);
