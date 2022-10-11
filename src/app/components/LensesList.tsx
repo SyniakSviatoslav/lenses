@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { HeaderContent } from "semantic-ui-react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './main.css';
-import { Fade } from "react-awesome-reveal";
-// import lenseImage from '../../assets/images/lenses.jpg';
 
 const LensesList = () => {
    
@@ -21,7 +19,7 @@ const LensesList = () => {
     return (
         <div className="lenses-list d-flex justify-content-center flex-wrap py-4">
             {lenses.map((x, i) =>
-                <Fade cascade fraction={0.7} key={x.name} triggerOnce={true} className='d-flex justify-content-center align-items-center mr-2 lense-animation'>
+                <div className='d-flex justify-content-center align-items-center mr-2 lense-animation'>
                     <div className=" blue-glass-filter text-white d-flex align-items-center lense-container my-2 mr-2 rounded position-relative">
                         <div className="price rounded-right">{x.price}</div>
                         <img className="lense-img-container rounded" src={require(`../../assets/images/item${i + 1}.jpg`)}></img>
@@ -31,7 +29,7 @@ const LensesList = () => {
                         <div className="lense-description">
                             <p>{x.desc}</p>
                         </div>
-                    </div> </Fade>)}
+                    </div> </div>)}
         </div>
     );
 };

@@ -2,15 +2,12 @@ import React, { useEffect, useState } from "react";
 import { HeaderContent } from "semantic-ui-react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './header.css';
-import { Fade } from "react-awesome-reveal";
 
 const Description = () => {
     return (
-        <Fade cascade direction={'up'} fraction={0.2} triggerOnce={true}>
             <div className=" p-4">
                 <div className="d-flex flex-column justify-content-center align-items-center description rounded m-4 ">
                     <div className="d-flex flex-column justify-content-center align-items-center blue-glass-filter rounded p-4">
-                        <Fade cascade triggerOnce={true}>
                             <div className="d-flex flex-column justify-content-center align-items-center my-2">
                                 <div className="text-white pink-back  p-2 rounded mb-2">
                                     <h3>Biofinity</h3>
@@ -29,8 +26,6 @@ const Description = () => {
                                         Їх можна носити безперервно протягом 30 днів та 29 ночей. Однак цей спосіб носіння завжди повинен спочатку схвалити лікар-окуліст.</p>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade cascade triggerOnce={true}>
                             <div className="d-flex flex-column justify-content-center align-items-center my-2">
                                 <div className="text-white pink-back p-2 rounded mb-2">
                                     <h3>PureVision 2</h3>
@@ -51,8 +46,6 @@ const Description = () => {
                                         Обидва варіанти упаковки мають всередині абсолютно ідентичні лінзи, різниця полягає виключно у дизайні упаковки.</p>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade cascade triggerOnce={true}>
                             <div className="d-flex flex-column justify-content-center align-items-center my-2">
                                 <div className="text-white pink-back p-2 rounded mb-2">
                                     <h3>Air Optics</h3>
@@ -63,11 +56,9 @@ const Description = () => {
                                     та зволоженого матеріалу HydraGlyde, що дозволяє відчути максимальний рівень комфорту. Термін заміни - 1 місяць. Радіус кривизни – 8,6. Діаметр – 14,2.</p>
                                 </div>
                             </div>
-                        </Fade>
                     </div>
                 </div>
             </div>
-        </Fade>
     );
 };
 

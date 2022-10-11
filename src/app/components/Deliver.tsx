@@ -3,11 +3,9 @@ import { HeaderContent } from "semantic-ui-react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './header.css';
 import { ArrowRight, CreditCard, MessageCircle, Monitor, Package } from "react-feather";
-import { Fade } from "react-awesome-reveal";
 
 const Deliver = () => {
     return (
-        <Fade duration={1500} direction={'up'} fraction={0.2} triggerOnce={true}>
             <div className="d-flex flex-column justify-content-center align-items-center p-4 m-4 text-white">
                 <div className="d-flex flex-column justify-content-center align-items-center p-4">
                     <h3>Як замовити лінзи?</h3>
@@ -50,7 +48,6 @@ const Deliver = () => {
                     </div>
                 </div>
             </div>
-        </Fade>
     );
 };
 

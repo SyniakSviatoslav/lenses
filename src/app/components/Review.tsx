@@ -2,12 +2,11 @@ import React, { useEffect, useState } from "react";
 import { HeaderContent } from "semantic-ui-react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './main.css';
-import { Fade } from "react-awesome-reveal";
 
 const Review = () => {
     return (
         <div className="d-flex  rounded justify-content-around p-4 m-4 flex-wrap" style={{ gap: '20px' }}>
-            <Fade duration={1500} fraction={0.2} direction={'up'} triggerOnce={true} className="lense-animation">
+            <div className="lense-animation">
                 <div className="description text-white w-100 rounded">
                     <div className="blue-glass-filter w-100 h-100 d-flex flex-column justify-content-center align-items-center rounded">
                         <div>
@@ -19,8 +18,8 @@ const Review = () => {
                         </div>
                     </div>
                 </div>
-            </Fade>
-            <Fade duration={1500} fraction={0.5} delay={500} direction={'up'} triggerOnce={true} className="lense-animation">
+            </div>
+            <div className="lense-animation">
                 <div className=" description text-white w-100 rounded">
                     <div className="blue-glass-filter w-100 h-100 d-flex flex-column justify-content-center align-items-center rounded">
                         <div>
@@ -32,8 +31,8 @@ const Review = () => {
                         </div>
                     </div>
                 </div>
-            </Fade>
-            <Fade duration={1500} fraction={0.5} delay={1000} direction={'up'} triggerOnce={true} className="lense-animation">
+            </div>
+            <div className="lense-animation">
                 <div className="description text-white w-100 rounded">
                     <div className="blue-glass-filter w-100 h-100 d-flex flex-column justify-content-center align-items-center rounded">
                         <div>
@@ -45,7 +44,7 @@ const Review = () => {
                         </div>
                     </div>
                 </div>
-            </Fade>
+            </div>
         </div>
     );
 };

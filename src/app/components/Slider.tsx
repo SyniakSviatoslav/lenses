@@ -2,11 +2,9 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from "react-bootstrap";
 import './main.css';
-import { Fade } from "react-awesome-reveal";
 
 const Slider = () => {
     return (
-        <Fade cascade direction={'up'} delay={500} fraction={0.5} duration={1500} triggerOnce={true}>
             <div className="rounded description  m-4">
                 <div className="pink-glass-filter d-flex justify-content-center h-100 w-100 p-4">
                     <div className="slider-container ">
@@ -52,7 +50,6 @@ const Slider = () => {
                     </div>
                     </div>
                 </div>
-        </Fade>
     );
 };
 
