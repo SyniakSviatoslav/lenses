@@ -8,7 +8,7 @@ const Layout = ({ children }: { children: any }) => {
     <div className="wrapper">
       <div className="main">
         <Header/>
-        <main className="content d-flex justify-content-center p-0 my-4">{children}</main>
+        <main className="content d-flex justify-content-center p-0 mb-4">{children}</main>
         <Footer/>
       </div>
       <div className="toast-container">

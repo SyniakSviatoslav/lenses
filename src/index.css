@@ -1,4 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/din-pro-cond');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 body {
   margin: 0;
@@ -8,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url('./assets/images/eye-unsplash.jpg'); */
-  font-family: 'DIN Pro Cond Medium', sans-serif !important;
+  font-family: 'Comfortaa' !important;
   background-position: top;
   background-repeat: no-repeat;
 }
@@ -18,11 +19,10 @@ body {
 .main{
   backdrop-filter: blur(10px) saturate(181%);
   -webkit-backdrop-filter: blur(10px) saturate(181%);
-  background-color: hwb(236deg 5% 53% / 65%);
+  background-color: white;
   /* background-color: rgba(245, 175, 195, 0.2); */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Comfortaa', cursive;
 }

@@ -29,24 +29,24 @@ const Header = () => {
         );
     };
 
-    useEffect(() => {
-        let timeout;
+    // useEffect(() => {
+    //     let timeout;
 
-        function myFunction() {
-            timeout = setTimeout(handleShow, 35000);
-        }
-        myFunction()
+    //     function myFunction() {
+    //         timeout = setTimeout(handleShow, 35000);
+    //     }
+    //     myFunction()
 
-    }, []);
+    // }, []);
 
 
 
     return (
         <header>
-            <div className="description">
+            <div style={{background: 'white'}}>
             <HeaderContent>
-                <div className="d-flex justify-content-around align-items-center blue-glass-filter">
-                    <h2>Lenses Ukraine</h2>
+                <div className="d-flex justify-content-around align-items-center">
+                    <h5 className="text-dark">Lenses Ukraine</h5>
                     <Button onClick={handleShow} className='order-btn'>Замовити</Button>
                 </div>
             </HeaderContent>
