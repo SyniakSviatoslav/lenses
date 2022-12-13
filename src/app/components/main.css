@@ -39,6 +39,11 @@
     color: #ff81d8;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
 .lenses-list {
     /* background: #f7fbfe;
     backdrop-filter: blur(10px) saturate(181%);
