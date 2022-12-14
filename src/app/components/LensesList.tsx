@@ -17,14 +17,14 @@ const LensesList = () => {
     { name: 'Acuvue TruEye 1 day', price: '850 ₴', desc: 'Недаремно одноденні контактні лінзи 1-Day Acuvue TruEye отримали престижну нагороду TOP OPTA 2010. Крім комфорту, новий матеріал Narafilcon А забезпечує надзвичайно високий коефіцієнт пропускання кисню, що досягає 118 Dk/t.' }]
     
     return (
-        <div className="lenses-list d-flex justify-content-center flex-wrap py-4">
+        <div className="lenses-list d-flex justify-content-center flex-wrap m-4" style={{background: 'rgb(245, 245, 245)'}}>
             {lenses.map((x, i) =>
-                <div className='d-flex justify-content-center align-items-center mr-2 lense-animation'>
-                    <div className=" blue-glass-filter text-white d-flex align-items-center lense-container my-2 mr-2 rounded position-relative">
-                        <div className="price rounded-right">{x.price}</div>
+                <div className='d-flex justify-content-center align-items-center mr-2 lense-animation' key={x.name}>
+                    <div className=" text-dark d-flex align-items-center lense-container my-2 mr-2 rounded position-relative">
                         <img className="lense-img-container rounded" src={require(`../../assets/images/item${i + 1}.jpg`)}></img>
-                        <div className="d-flex flex-column justify-content-around p-2 w-100 text-center">
+                        <div className="d-flex flex-column justify-content-around p-4 w-100 text-end">
                             <strong className="mb-2">{x.name}</strong>
+                            <strong className="mb-2">{x.price}</strong>
                         </div>
                         <div className="lense-description">
                             <p>{x.desc}</p>

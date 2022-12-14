@@ -13,8 +13,8 @@ const Slider = () => {
 
 
     return (
-        <div className="rounded description d-flex m-4" style={{background: '#F5F5F5'}}>
-            <div className="w-50">
+        <div className="rounded description d-flex flex-wrap justify-content-center m-4" style={{background: '#F5F5F5'}}>
+            <div className="slider-desc">
                 {index === 2 && <p className="p-4">Biofinity щомісячні контактні лінзи
                     Biofinity - це силікон-гідрогелеві контактні лінзи з щомісячним графіком заміни від виробника CooperVision. Їх спеціальний матеріал поєднує в
                     собі високий вміст води з чудовою проникністю кисню. Ці контактні лінзи постачаються в упаковках по 3 лінзи.
@@ -41,9 +41,9 @@ const Slider = () => {
                 {index === 0 && <p className="p-4">Контактні лінзи одномісячної заміни перевершують усі аналоги завдяки унікальній технології SmartShield, що очищає поверхню лінзи,
                     та зволоженого матеріалу HydraGlyde, що дозволяє відчути максимальний рівень комфорту. Термін заміни - 1 місяць. Радіус кривизни – 8,6. Діаметр – 14,2.</p>}
             </div>
-            <div className="d-flex justify-content-center h-100 w-100 p-4">
+            <div className="d-flex justify-content-center p-4 slider-desc">
                 <div className="slider-container ">
-                    <Carousel onSelect={handleSelect}>
+                    <Carousel onSelect={handleSelect} interval={null}>
                         <Carousel.Item id='1'>
                             <img
                                 className="d-block w-50 carousel-img"

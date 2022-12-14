@@ -27,3 +27,19 @@
 .btn{
     color: #0a2f5e;
 }
+
+.home-desc{
+    width: 50%;
+}
+
+@media (max-width: 668px) {
+    .home-desc{
+        width: 100vw;
+    }
+    .home-desc h1{
+        font-size: 30px !important;
+    }
+    .home-desc p{
+        font-size: 15px !important;
+    }
+}

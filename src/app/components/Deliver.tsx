@@ -6,46 +6,22 @@ import { ArrowRight, CreditCard, MessageCircle, Monitor, Package } from "react-f
 
 const Deliver = () => {
     return (
-            <div className="d-flex flex-column justify-content-center align-items-center p-4 m-4 text-white">
-                <div className="d-flex flex-column justify-content-center align-items-center p-4">
-                    <h3>Як замовити лінзи?</h3>
-                    <div className="d-flex align-items-center mt-2 flex-wrap" style={{ gap: '5px' }}>
-                        <div className="d-flex flex-column justify-content-center align-items-center " style={{ gap: '5px' }}>
-                            <div>
-                                <Monitor size={50} />
-                            </div>
-                            <div>
-                                <p>Обрати товар на сайті та заповнити форму </p>
-                            </div>
-                        </div>
-                        <ArrowRight size={30} />
-                        <div className="d-flex flex-column justify-content-center align-items-center" style={{ gap: '5px' }}>
-                            <div>
-                                <MessageCircle size={50} />
-                            </div>
-                            <div >
-                                <p>Менеджер зв'язується з вами для підтвердження замовлення</p>
-                            </div>
-                        </div>
-                        <ArrowRight size={30} />
-                        <div className="d-flex flex-column justify-content-center align-items-center" style={{ gap: '5px' }}>
-                            <div>
-                                <Package size={50} />
-                            </div>
-                            <div >
-                                <p>Товар відправляється поштою до вказного відділення</p>
-                            </div>
-                        </div>
-                        <ArrowRight size={40} />
-                        <div className="d-flex flex-column justify-content-center align-items-center" style={{ gap: '5px' }}>
-                            <div>
-                                <CreditCard size={50} />
-                            </div>
-                            <div >
-                                <p>Ви оплачуєте товар при отриманні</p>
-                            </div>
-                        </div>
-                    </div>
+            <div className="d-flex flex-wrap justify-content-between p-4 m-4 text-dark text-center">
+                <div className="d-flex flex-column justify-content-center" style={{ width: '200px'}}>
+                    <img src={require('../../assets/images/Group 22.png')}></img>
+                    <p className="my-3">Обрати товар на сайті та заповнити форму </p>
+                </div>
+                <div className="d-flex flex-column justify-content-center" style={{ width: '200px'}}>
+                    <img src={require('../../assets/images/Group 23.png')}></img>
+                    <p className="my-3">Менеджер зв'язується з вами для підтвердження замовлення</p>
+                </div>
+                <div className="d-flex flex-column justify-content-center" style={{ width: '200px'}}>
+                    <img src={require('../../assets/images/Group 24.png')}></img>
+                    <p className="my-3">Товар відправляється поштою до вказного відділення</p>
+                </div>
+                <div className="d-flex flex-column justify-content-center" style={{ width: '200px'}}>
+                    <img src={require('../../assets/images/Group 25.png')}></img>
+                    <p className="my-3">Ви оплачуєте товар при отриманні</p>
                 </div>
             </div>
     );

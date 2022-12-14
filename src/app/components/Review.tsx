@@ -5,12 +5,12 @@ import './main.css';
 
 const Review = () => {
     return (
-        <div className="d-flex  rounded justify-content-around p-4 m-4 flex-wrap" style={{ gap: '20px' }}>
+        <div className="d-flex  rounded justify-content-around m-2 flex-wrap" style={{ gap: '20px' }}>
             <div className="lense-animation">
-                <div className="description text-white w-100 rounded">
-                    <div className="blue-glass-filter w-100 h-100 d-flex flex-column justify-content-center align-items-center rounded">
+                <div className="description text-dark w-100 rounded" style={{background: 'rgb(245, 245, 245)'}}>
+                    <div className="w-100 h-100 d-flex flex-column justify-content-center align-items-center rounded">
                         <div>
-                            <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review1.jpg')}></img>
+                            <img className="review-image p-2" src={require('../../assets/images/review1.jpg')}></img>
                         </div>
                         <div className="S d-flex flex-column align-items-center p-2">
                             <h3 className="blue-text">Стас</h3>
@@ -20,10 +20,10 @@ const Review = () => {
                 </div>
             </div>
             <div className="lense-animation">
-                <div className=" description text-white w-100 rounded">
-                    <div className="blue-glass-filter w-100 h-100 d-flex flex-column justify-content-center align-items-center rounded">
+                <div className=" description text-dark w-100 rounded" style={{background: 'rgb(245, 245, 245)'}}>
+                    <div className="w-100 h-100 d-flex flex-column justify-content-center align-items-center rounded">
                         <div>
-                            <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review2.jpg')}></img>
+                            <img className="review-image p-2" src={require('../../assets/images/review2.jpg')}></img>
                         </div>
                         <div className="S d-flex flex-column align-items-center p-2">
                             <h3 className="blue-text">Микита</h3>
@@ -32,11 +32,11 @@ const Review = () => {
                     </div>
                 </div>
             </div>
-            <div className="lense-animation">
-                <div className="description text-white w-100 rounded">
-                    <div className="blue-glass-filter w-100 h-100 d-flex flex-column justify-content-center align-items-center rounded">
+            <div className="lense-animation text-dark">
+                <div className="description text-dark w-100 rounded" style={{background: 'rgb(245, 245, 245)'}}>
+                    <div className="w-100 h-100 d-flex flex-column justify-content-center align-items-center rounded">
                         <div>
-                            <img className="review-image blue-glass-filter p-2" src={require('../../assets/images/review3.jpg')}></img>
+                            <img className="review-image p-2" src={require('../../assets/images/review3.jpg')}></img>
                         </div>
                         <div className="S d-flex flex-column align-items-center p-2">
                             <h3 className="blue-text">Іринка</h3>

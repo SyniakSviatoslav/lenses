@@ -52,6 +52,7 @@
 }
 
 .lense-container {
+    background-color: white;
     margin-right: 3vw;
     width: 40vw;
     height: 35vh;
@@ -86,7 +87,7 @@
     justify-content: center;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #0a2f5e;
+    background-color: white;
     animation: opaqueAnimation 3s;
     height: 100%;
     font-size: 12px;
@@ -126,6 +127,10 @@
     width: 30vw;
 }
 
+.slider-desc{
+    width: 45vw;
+}
+
 @keyframes opaqueAnimation {
     0% {
         opacity: 0;
@@ -155,5 +160,9 @@
 
     .lense-animation {
         width: 100vw !important;
+    }
+
+    .slider-desc{
+        width: 85vw;
     }
 }

@@ -29,15 +29,15 @@ const Header = () => {
         );
     };
 
-    // useEffect(() => {
-    //     let timeout;
+    useEffect(() => {
+        let timeout;
 
-    //     function myFunction() {
-    //         timeout = setTimeout(handleShow, 35000);
-    //     }
-    //     myFunction()
+        function myFunction() {
+            timeout = setTimeout(handleShow, 35000);
+        }
+        myFunction()
 
-    // }, []);
+    }, []);
 
 
 
