@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.0aa15690.css",
-    "main.js": "/static/js/main.21598260.js",
+    "main.css": "/static/css/main.06cf2d58.css",
+    "main.js": "/static/js/main.a83e227f.js",
     "static/media/gradient-unsplash.jpg": "/static/media/gradient-unsplash.e856b63455a6e50a42ef.jpg",
+    "static/media/eye.png": "/static/media/eye.f80bd75222971a709052.png",
     "static/media/item10.jpg": "/static/media/item10.a18bae6b32fe0f6a2d71.jpg",
     "static/media/item4.jpg": "/static/media/item4.90962ece20de6d0c64f1.jpg",
     "static/media/item3.jpg": "/static/media/item3.99897a7b45325c05259b.jpg",
@@ -21,12 +22,14 @@
     "static/media/review2.jpg": "/static/media/review2.e9979a4238ca32208267.jpg",
     "static/media/review1.jpg": "/static/media/review1.2b80c839a5819d729c54.jpg",
     "static/media/review3.jpg": "/static/media/review3.a4689afaf3574dd18254.jpg",
+    "static/media/Group 22.png": "/static/media/Group 22.5730954dc85131bbd321.png",
+    "static/media/Group 24.png": "/static/media/Group 24.f33ae5319a85aaad063f.png",
     "index.html": "/index.html",
-    "main.0aa15690.css.map": "/static/css/main.0aa15690.css.map",
-    "main.21598260.js.map": "/static/js/main.21598260.js.map"
+    "main.06cf2d58.css.map": "/static/css/main.06cf2d58.css.map",
+    "main.a83e227f.js.map": "/static/js/main.a83e227f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aa15690.css",
-    "static/js/main.21598260.js"
+    "static/css/main.06cf2d58.css",
+    "static/js/main.a83e227f.js"
   ]
 }
