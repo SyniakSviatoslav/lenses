@@ -16,4 +16,13 @@
     console.log('Something', something);
   }
   ```
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 </details>
