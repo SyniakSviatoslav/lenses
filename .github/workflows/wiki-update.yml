@@ -1,0 +1,26 @@
+name: Update Wiki
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+    paths:
+      - 'wiki/**'
+  workflow_dispatch:
+
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Update Wiki
+      run: |
+        run: |
+        rsync -av --delete wiki/ . --exclude .git
+        git commit -am "Update Wiki content"
+        git push origin main
